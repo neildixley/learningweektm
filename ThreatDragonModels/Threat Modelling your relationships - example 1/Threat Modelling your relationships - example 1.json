@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "title": "Threat Modelling your relationships - example 1",
+    "owner": "Neil Dixley",
+    "description": "An example threat model for the learning week course"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  }
+}
