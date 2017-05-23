@@ -10,7 +10,141 @@
       {
         "title": "The model family",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 59,
+                "y": 67
+              },
+              "angle": 0,
+              "id": "1b83e7d0-992a-4d3d-97fa-e94c36382d61",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Barry"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 407,
+                "y": 68
+              },
+              "angle": 0,
+              "id": "5c228e6a-0b94-4767-a844-445ce1668e82",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Doris"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 391,
+                "y": 444
+              },
+              "target": {
+                "x": 297,
+                "y": 24
+              },
+              "vertices": [],
+              "id": "5cc998a4-e516-4c09-a38c-17ff57f29a1d",
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "1b83e7d0-992a-4d3d-97fa-e94c36382d61"
+              },
+              "target": {
+                "id": "5c228e6a-0b94-4767-a844-445ce1668e82"
+              },
+              "vertices": [],
+              "id": "cb125c10-4361-40d0-a342-4dcc59ec3631",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "5c228e6a-0b94-4767-a844-445ce1668e82"
+              },
+              "target": {
+                "x": 110,
+                "y": 100
+              },
+              "vertices": [
+                {
+                  "x": 231,
+                  "y": 28
+                }
+              ],
+              "id": "6971b59d-de41-476a-bc0b-d8f6f39c7d4e",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 4",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 5,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ]
   }
